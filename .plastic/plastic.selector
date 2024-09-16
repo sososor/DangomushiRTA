@@ -1,0 +1,3 @@
+rep "progate@so_se_zi@cloud"
+  path "/"
+    smartbranch "/main"       

@@ -1,0 +1,19 @@
+# LFSで管理したいファイルの拡張子を指定
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# バイナリファイルとして扱うべき拡張子を指定
+*.dll binary
+*.exe binary
+*.so binary
+*.bin binary
+*.unity binary
+*.asset binary
+*.prefab binary
+
+# 改行コードを指定
+*.cs text eol=lf
+*.shader text eol=lf
